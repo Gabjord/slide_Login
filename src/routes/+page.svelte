@@ -65,7 +65,7 @@
 				<h1 class="text-[2em] font-semibold">Hello, Friend!</h1>
 				<p class="p-8 text-sm font-medium">Enter your personal details and start journey with us</p>
 				<button
-					on:click={toggle()}
+					on:click={toggle}
 					class="mx-auto w-fit rounded-full bg-white px-8 py-2 text-sm font-semibold text-orange-400"
 					>SIGN UP
 				</button>
@@ -88,7 +88,7 @@
 					To keep connected with us please login with your personal info
 				</p>
 				<button
-					on:click={toggle()}
+					on:click={toggle}
 					class="mx-auto w-fit rounded-full bg-white px-8 py-2 text-sm font-semibold text-orange-400"
 					>SIGN IN
 				</button>
